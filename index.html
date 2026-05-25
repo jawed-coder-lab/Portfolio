@@ -1,1 +1,254 @@
-<h2>Portfolio</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jawed Hamta | Portfolio</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#f4f4f4;
+      color:#222;
+      line-height:1.6;
+    }
+
+    .container{
+      width:90%;
+      max-width:1100px;
+      margin:auto;
+    }
+
+    header{
+      background:#111;
+      color:white;
+      text-align:center;
+      padding:80px 20px;
+    }
+
+    .profile-img{
+      width:150px;
+      height:150px;
+      border-radius:50%;
+      object-fit:cover;
+      border:4px solid white;
+      margin-bottom:20px;
+    }
+
+    header h1{
+      font-size:48px;
+      margin-bottom:10px;
+    }
+
+    header p{
+      font-size:18px;
+      color:#ccc;
+    }
+
+    section{
+      padding:70px 0;
+    }
+
+    .box{
+      background:white;
+      padding:40px;
+      border-radius:10px;
+      box-shadow:0 0 10px rgba(0,0,0,0.08);
+      margin-bottom:30px;
+    }
+
+    .section-title{
+      text-align:center;
+      font-size:32px;
+      margin-bottom:30px;
+      color:#111;
+    }
+
+    .skills-list{
+      display:flex;
+      flex-wrap:wrap;
+      gap:15px;
+      margin-top:20px;
+    }
+
+    .skill{
+      background:#111;
+      color:white;
+      padding:10px 20px;
+      border-radius:5px;
+    }
+
+    .dm-text{
+      margin-top:20px;
+      font-weight:bold;
+      color:#444;
+    }
+
+    .certificate a{
+      display:inline-block;
+      margin-top:15px;
+      background:#111;
+      color:white;
+      text-decoration:none;
+      padding:12px 20px;
+      border-radius:5px;
+    }
+
+    .contact-item{
+      margin-bottom:20px;
+    }
+
+    .contact-item h3{
+      margin-bottom:5px;
+    }
+
+    .contact-item a{
+      text-decoration:none;
+      color:#444;
+    }
+
+    footer{
+      background:#111;
+      color:#ccc;
+      text-align:center;
+      padding:20px;
+      margin-top:40px;
+    }
+
+    @media(max-width:768px){
+
+      header h1{
+        font-size:36px;
+      }
+
+      .section-title{
+        font-size:28px;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+
+    <!-- PUT YOUR PROFILE IMAGE -->
+    <img src="profile.jpg" alt="Jawed Hamta" class="profile-img">
+
+    <h1>Jawed Hamta</h1>
+
+    <p>Front-End Developer</p>
+
+  </header>
+
+  <section>
+
+    <div class="container">
+
+      <div class="box">
+
+        <h2 class="section-title">About Me</h2>
+
+        <p>
+          I am a passionate front-end developer who enjoys creating clean,
+          modern, and responsive websites using HTML and CSS.
+          I am continuously improving my skills and building projects
+          to grow as a web developer.
+        </p>
+
+      </div>
+
+      <div class="box">
+
+        <h2 class="section-title">Front-End Skills</h2>
+
+        <div class="skills-list">
+
+          <div class="skill">HTML</div>
+
+          <div class="skill">CSS</div>
+
+          <div class="skill">Responsive Design</div>
+
+          <div class="skill">Portfolio Websites</div>
+
+        </div>
+
+        <p class="dm-text">
+          DM for front-end website projects.
+        </p>
+
+      </div>
+
+      <div class="box certificate">
+
+        <h2 class="section-title">freeCodeCamp Certificate</h2>
+
+        <p>
+          Click below to view my certificate.
+        </p>
+
+        <!-- PUT YOUR CERTIFICATE LINK -->
+        <a href="https://freecodecamp.org/certification/jawed-coder-lab/responsive-web-design-v9" target="_blank">
+          View Certificate
+        </a>
+
+      </div>
+
+      <div class="box">
+
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-item">
+
+          <h3>GitHub</h3>
+
+          <a href="https://github.com/jawed-coder-lab" target="_blank">
+            github.com/jawed-coder-lab
+          </a>
+
+        </div>
+
+        <div class="contact-item">
+
+          <h3>Email</h3>
+
+          <a href="mailto:jawedhamta20@gmail.com">
+            jawedhamta20@gmail.com
+          </a>
+
+        </div>
+
+        <div class="contact-item">
+
+          <h3>WhatsApp</h3>
+
+          <a href="https://wa.me/93744319763" target="_blank">
+            +93 744 319 763
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+
+    <p>© 2026 Jawed Hamta. All Rights Reserved.</p>
+
+  </footer>
+
+</body>
+</html>
